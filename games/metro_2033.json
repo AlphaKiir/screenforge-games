@@ -1,0 +1,23 @@
+{
+    "id": "metro_2033",
+    "display_name": "Metro 2033 Redux",
+    "appdata_folder": "Metro 2033",
+    "process_names": ["metro.exe", "Metro 2033 Redux.exe", "metroredux.exe"],
+    "process_path_match": "Metro 2033 Redux",
+    "config_file": "user.cfg",
+    "config_keys": {
+        "fullscreen": {
+            "key": "r_fullscreen",
+            "windowed_value": "off",
+            "fullscreen_value": "on"
+        },
+        "width": {
+            "key": "r_res_hor"
+        },
+        "height": {
+            "key": "r_res_vert"
+        }
+    },
+    "steam_app_id": "286690",
+    "notes": "Metro 2033 Redux - process_path_match distingue du Last Light Redux qui utilise aussi metro.exe."
+}
