@@ -1,8 +1,8 @@
-# Ultrawide Fix - Game Definitions
+# ScreenForge - Game Definitions
 
-Game definition files for [Ultrawide Fix](https://alphakiir.gumroad.com/l/ultrawide-fix).
+Game definition files for [ScreenForge](https://alphakiir.gumroad.com/l/screenforge).
 
-Each JSON file defines how Ultrawide Fix handles a specific game:
+Each JSON file defines how ScreenForge handles a specific game:
 - Config file locations
 - Process names for window detection
 - Resolution and fullscreen settings
