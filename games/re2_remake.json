@@ -1,0 +1,42 @@
+{
+    "id": "re2_remake",
+    "display_name": "Resident Evil 2 Remake",
+    "config_format": "ini",
+    "config_file": "re2_config.ini",
+    "steam_app_id": "883710",
+    "steam_folder_names": ["RESIDENT EVIL 2  BIOHAZARD RE2", "RESIDENT EVIL 2 BIOHAZARD RE2", "Resident Evil 2"],
+    "userdata_config": false,
+    "process_names": ["re2.exe"],
+    "process_path_match": "RESIDENT EVIL 2",
+    "config_keys": {
+        "fullscreen": {
+            "section": "RenderConfig",
+            "key": "FullScreenMode",
+            "windowed_value": "false",
+            "fullscreen_value": "true"
+        },
+        "width": {
+            "section": "RenderConfig",
+            "key": "NormalWindowResolution",
+            "format": "tuple_float",
+            "default": "(0.000000,0.000000)"
+        },
+        "height": {
+            "section": "RenderConfig",
+            "key": "NormalWindowResolution",
+            "format": "tuple_float_second"
+        }
+    },
+    "extra_cfg_lines": {
+        "RenderConfig": {
+            "WindowMode": "Normal"
+        },
+        "Render": {
+            "Capability": "DirectX11"
+        }
+    },
+    "cfg_set_readonly": true,
+    "disable_fso": true,
+    "enforce_native_resolution": true,
+    "notes": "RE2 Remake : re2_config.ini dans dossier jeu. DX11 + cfg lecture seule + FSO desactive + display watcher."
+}
