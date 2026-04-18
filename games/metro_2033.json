@@ -19,5 +19,6 @@
         }
     },
     "steam_app_id": "286690",
-    "notes": "Metro 2033 Redux - process_path_match distingue du Last Light Redux qui utilise aussi metro.exe."
+    "clip_cursor_to_window": true,
+    "notes": "Metro 2033 Redux - process_path_match distingue du Last Light Redux qui utilise aussi metro.exe. clip_cursor_to_window : confine la souris dans la fenetre quand le jeu a le focus."
 }

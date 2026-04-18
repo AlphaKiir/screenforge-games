@@ -24,5 +24,6 @@
     },
     "cfg_set_readonly": true,
     "steam_app_id": "412020",
-    "notes": "Metro Exodus : DX11 + cfg en lecture seule pour empecher le jeu de reecrire r_fullscreen au menu."
+    "clip_cursor_to_window": true,
+    "notes": "Metro Exodus : DX11 + cfg en lecture seule pour empecher le jeu de reecrire r_fullscreen au menu. clip_cursor_to_window : confine la souris dans la fenetre quand le jeu a le focus."
 }

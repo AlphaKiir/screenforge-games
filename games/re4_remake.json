@@ -8,6 +8,7 @@
     "userdata_config": false,
     "process_names": ["re4.exe"],
     "process_path_match": "RESIDENT EVIL 4",
+    "borderless_only_mode": true,
     "config_keys": {
         "fullscreen": {
             "section": "RenderConfig",
@@ -19,24 +20,17 @@
             "section": "RenderConfig",
             "key": "NormalWindowResolution",
             "format": "tuple_float",
-            "default": "(0.000000,0.000000)"
+            "default": "(0.000000,0.000000)",
+            "readonly": true
         },
         "height": {
             "section": "RenderConfig",
             "key": "NormalWindowResolution",
-            "format": "tuple_float_second"
+            "format": "tuple_float_second",
+            "readonly": true
         }
     },
-    "extra_cfg_lines": {
-        "RenderConfig": {
-            "WindowMode": "Normal"
-        },
-        "Render": {
-            "Capability": "DirectX11"
-        }
-    },
-    "cfg_set_readonly": true,
     "disable_fso": true,
-    "enforce_native_resolution": true,
-    "notes": "RE4 Remake : local_config.ini dans dossier jeu. DX11 + cfg lecture seule + FSO desactive + display watcher."
+    "clip_cursor_to_window": true,
+    "notes": "RE4 Remake : mode 'retirer bordures uniquement'. L'utilisateur configure le jeu en fenetre depuis le menu du jeu (Options > Affichage), ScreenForge retire juste les bordures pour un rendu propre. Confinement souris actif pour eviter les clics sur le bureau."
 }
