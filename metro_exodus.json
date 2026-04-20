@@ -1,0 +1,29 @@
+{
+    "id": "metro_exodus",
+    "display_name": "Metro Exodus",
+    "appdata_folder": null,
+    "saved_games_folder": "metro exodus",
+    "process_names": ["MetroExodus.exe", "metro_exodus.exe", "Metro Exodus.exe"],
+    "process_path_match": "\\Metro Exodus\\",
+    "config_file": "user.cfg",
+    "config_keys": {
+        "fullscreen": {
+            "key": "r_fullscreen",
+            "windowed_value": "off",
+            "fullscreen_value": "on"
+        },
+        "width": {
+            "key": "r_res_hor"
+        },
+        "height": {
+            "key": "r_res_vert"
+        }
+    },
+    "extra_cfg_lines": {
+        "r_api": "2"
+    },
+    "cfg_set_readonly": true,
+    "steam_app_id": "412020",
+    "clip_cursor_to_window": true,
+    "notes": "Metro Exodus : DX11 + cfg en lecture seule pour empecher le jeu de reecrire r_fullscreen au menu. clip_cursor_to_window : confine la souris dans la fenetre quand le jeu a le focus."
+}
