@@ -1,0 +1,27 @@
+{
+    "id": "metro_exodus_enhanced",
+    "display_name": "Metro Exodus Enhanced Edition",
+    "appdata_folder": null,
+    "saved_games_folder": "metro exodus",
+    "process_names": ["MetroExodus.exe", "metro_exodus.exe", "Metro Exodus.exe"],
+    "process_path_match": "Enhanced Edition",
+    "config_file": "user.cfg",
+    "config_keys": {
+        "fullscreen": {
+            "key": "r_fullscreen",
+            "windowed_value": "off",
+            "fullscreen_value": "on"
+        },
+        "width": {
+            "key": "r_res_hor"
+        },
+        "height": {
+            "key": "r_res_vert"
+        }
+    },
+    "extra_cfg_lines": {},
+    "cfg_set_readonly": true,
+    "steam_app_id": "1449560",
+    "clip_cursor_to_window": true,
+    "notes": "Metro Exodus Enhanced Edition : DX12 (r_api pas modifie, laisse par defaut). process_path_match='Enhanced Edition' pour distinguer de la version normale qui a le meme nom de process. cfg en lecture seule pour empecher le jeu de reecrire r_fullscreen au menu."
+}
